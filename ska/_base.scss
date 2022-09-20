@@ -1,0 +1,53 @@
+
+body{
+    font-family: Poppins,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+  padding: 0;
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;  
+}
+
+img{
+    max-width: 100%;
+}
+
+hr {
+  border: 0;
+  border-top: 1px dotted #efefef;
+}
+
+button{
+  background-color: $primary;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  margin: $base-margin;
+  padding: $base-padding;
+  border-radius: $base-border-radius;
+  border-width: $base-border-width;
+}
+
+.error{
+  color: $error;
+  border-color: $error;
+  border-style: solid;
+  padding: $base-padding;
+  border-radius: $base-border-radius;
+  border-width: $base-border-width;
+}
+
+.notification{
+  color: $secondary;
+  border-color: $secondary;
+  border-style: solid;
+  padding: $base-padding;
+  border-radius: $base-border-radius;
+  border-width: $base-border-width;
+}
